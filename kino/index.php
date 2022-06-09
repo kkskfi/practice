@@ -11,7 +11,7 @@
 		
 		if ($_GET['id']==1){
 			
-			$text="select * from cinemas where name like '%".$_GET['name']."%' or
+			$text="select * from theatres where name like '%".$_GET['name']."%' or
 address like '%".$_GET['name']."%'";
 		
 			$result=$mysqli->query($text);
